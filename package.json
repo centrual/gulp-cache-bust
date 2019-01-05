@@ -11,18 +11,18 @@
     "timestamp"
   ],
   "author": {
-    "name": "Daniel Furze",
-    "email": "daniel@furzeface.com",
-    "url": "https://github.com/furzeface"
+    "name": "Oğuz Özcan",
+    "email": "centrual@outlook.com",
+    "url": "https://oguzozcan.com"
   },
-  "repository": "https://github.com/furzeface/gulp-cache-bust",
+  "repository": "https://github.com/centrual/gulp-cache-bust",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
     "ansi-colors": "^1.0.1",
-    "cachebust": "2.4.0",
+    "cachebust": "https://github.com/centrual/cachebust.git",
     "fancy-log": "^1.3.2",
     "graceful-fs": "^4.1.9",
     "map-stream": "^0.1.0",
